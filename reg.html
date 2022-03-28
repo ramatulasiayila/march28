@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+    <title>Bootstrap 5 Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+    <style>
+          .container{
+                background-color: darkmagenta;
+                height: 100vh;
+                opacity: 0.6;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .topnav a:hover{
+                justify-content: space-evenly;
+                color: brown;
+                
+            }
+            .name{
+                margin: 50px;
+                padding: 30px;
+
+            }
+            .btn-info{
+                 /* float: left;
+                 display: block;
+                 color: #f2f2f2; */
+                 text-align: center;
+                 padding: 2px;
+                 text-decoration: none;
+                 font-size: 17px;
+                
+            
+                cursor: pointer;
+                background-color: blue;
+            
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <form class="horizontal-form">
+    <h1 style="text-decoration: underline;">Registation Form</h1>
+
+    <div class="form-group">
+    <label for="name" >FirstName:</label>
+    <i class="fa fa-user icon"></i>
+    <input type="text" class="form-control" class="name"  placeholder="please enter your name" id="name" required/><br/><br/>
+     </div>
+     <div class="form-group">
+    <label for="name2" >LastName:</label>
+    <input type="text" class="form-control" placeholder="please enter your name" id="name2" required /><br/><br/>
+    </div>
+    <div class="form-group">
+    <label for="email" >Email:</label>
+    <input type="text" class="form-control" placeholder="please enter your name" id="email" required/><br/><br/>
+     </div>
+     <div class="form-group">
+    <label for="email2" >PassWord:</label>
+    <input type="password" class="form-control" placeholder="please enter your name" id="email2" required/><br/><br/>
+    </div>
+    <div  class="form-group">
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" class="form-control" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    </div>
+    <hr>
+    <div  class="form-group">
+    <label for="date"><b>time</b></label>
+    <input type="date" class="form-control" name="time" id="date" required>
+    </div>
+
+    
+  <button type="submit" class="btn-info">Register</button>
+
+  
+  
+
+    
+
+
+
+    </form>
+    </div>
+    
+
+</body>
+</html>
